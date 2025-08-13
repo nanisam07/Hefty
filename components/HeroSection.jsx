@@ -28,17 +28,17 @@ export default function HeroSection() {
     <section className="bg-black text-white py-20 px-6 flex flex-col md:flex-row items-center justify-between min-h-[400px]">
       {/* Text Block */}
       <div className="max-w-xl text-center md:text-left md:ml-10">
-        <h1 className="text-4xl font-bold leading-tight mb-6 text-balance">
+        <h1 className="text-4xl text-[#ec6b24] font-bold leading-tight mb-6 text-balance">
           Hyderabad’s Leading<br />Certified Company<br />For Crushing Equipment
         </h1>
-        <p className="text-sm mb-5 text-gray-400">
+        <p className="text-sm mb-5 text-white">
           Crushing and screening play a crucial role in driving productivity for both mining and construction industries. In these fast-paced sectors, speed, efficiency, and precision in processing materials can make all the difference in quality and output. 
         </p>
-        <p className="text-sm mb-6 text-gray-400">
+        <p className="text-sm mb-6 text-white">
           That’s why customers across the nation trust Hefty to deliver innovative, technologically advanced, and cost-effective crushing and screening solutions tailored to their needs.
         </p>
         <p className="text-xl mb-7 text-gray-300">
-          Hefty – Powering Productivity with Precision Crushing & Screening
+          <p className="text-[#ec6b24]">Hefty</p> – Powering Productivity with Precision Crushing & Screening
         </p>
 
         {/* Features Block */}

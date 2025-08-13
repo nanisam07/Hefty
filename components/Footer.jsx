@@ -7,7 +7,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/f
 
 export default function Footer() {
   return (
-    <footer className="bg-[#ec6b24] text-white py-12 font-serif">
+    <footer className="bg-white  text-blue-900 py-12 font-serif">
       <div className="max-w-[1280px] mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 border-b border-gray-700 pb-8">
           
@@ -22,20 +22,20 @@ export default function Footer() {
                 className="h-auto w-auto shadow-lg"
               />
             </Link>
-            <p className="text-sm text-white max-w-xs">
+            <p className="text-sm text-blue-900 max-w-xs">
               Hefty is a leading provider of innovative and reliable financial solutions, dedicated to empowering your financial future.
             </p>
             <div className="mt-6 flex space-x-4">
-              <a href="#" className="text-white transition-colors duration-300">
+              <a href="#" className="text-blue-900 transition-colors duration-300">
                 <FaFacebookF size={20} />
               </a>
-              <a href="#" className="text-white transition-colors duration-300">
+              <a href="#" className="text-blue-900 transition-colors duration-300">
                 <FaTwitter size={20} />
               </a>
-              <a href="#" className="text-white transition-colors duration-300">
+              <a href="#" className="text-blue-900 transition-colors duration-300">
                 <FaLinkedinIn size={20} />
               </a>
-              <a href="#" className="text-white transition-colors duration-300">
+              <a href="#" className="text-blue-900 transition-colors duration-300">
                 <FaInstagram size={20} />
               </a>
             </div>
@@ -43,8 +43,8 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <h4 className="font-semibold text-lg mb-4 text-white">Quick Links</h4>
-            <nav className="flex flex-col space-y-2 text-sm text-white">
+            <h4 className="font-semibold text-lg mb-4 text-blue-900">Quick Links</h4>
+            <nav className="flex flex-col space-y-2 text-sm text-blue-900 ">
               <Link href="/about" className="hover:text-blue-400 transition-colors duration-300">Company</Link>
               <Link href="/products/crushes" className="hover:text-blue-400 transition-colors duration-300">Products</Link>
               <Link href="/services-and-parts" className="hover:text-blue-400 transition-colors duration-300">Services & Parts</Link>
@@ -55,8 +55,8 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <h4 className="font-semibold text-lg mb-4 text-white">Contact Info</h4>
-            <address className="not-italic text-sm text-white space-y-2">
+            <h4 className="font-semibold text-lg mb-4 text-blue-900">Contact Info</h4>
+            <address className="not-italic text-sm text-blue-900  space-y-2">
               <p>123 Hefty Drive, Suite 456</p>
               <p>Financial City, FL 12345</p>
               <p>Email: <a href="mailto:info@hefty.com" className="hover:text-blue-400 transition-colors duration-300">info@hefty.com</a></p>
@@ -66,8 +66,8 @@ export default function Footer() {
           
           {/* Newsletter Section */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <h4 className="font-semibold text-lg mb-4 text-white">Newsletter</h4>
-            <p className="text-sm text-white mb-4">
+            <h4 className="font-semibold text-lg mb-4 text-blue-900">Newsletter</h4>
+            <p className="text-sm text-blue-900 mb-4">
               Stay up-to-date with our latest news and offers.
             </p>
             <form className="w-full max-w-sm">
@@ -80,7 +80,7 @@ export default function Footer() {
                 />
                 <button 
                   type="submit" 
-                  className="bg-white text-black px-6 py-2.5 rounded-full font-semibold shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105"
+                  className="bg-blue-900  text-black px-6 py-2.5 rounded-full font-semibold shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105"
                 >
                   Subscribe →
                 </button>
@@ -91,7 +91,7 @@ export default function Footer() {
 
         {/* Bottom Copyright Section */}
         
-          <div className="flex items-center justify-between w-full px-4 py-2  text-white">
+          <div className="flex items-center justify-between w-full px-4 py-2  text-blue-900 ">
   {/* Left side */}
   <p className="text-sm">&copy; {new Date().getFullYear()} Your Company</p>
 

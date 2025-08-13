@@ -27,10 +27,15 @@ export default function HeroSection() {
   return (
     <section className="bg-black text-white py-20 px-6 items-center min-h-[400px]">
       {/* Text Block */}
-      <div className="max-w-xl text-center md:text-left md:ml-10">
-        <h1 className="text-4xl text-[#ec6b24] text-center font-bold leading-tight mb-6 text-balance">
-          Hyderabad’s Leading Certified Company<br />For Crushing Equipment
-        </h1>
+      <div className="max-w-full text-center">
+  <h1 className="text-4xl text-[#ec6b24] font-bold leading-tight mb-6">
+    Hyderabad’s Leading Certified Company<br />
+    For Crushing Equipment
+  </h1>
+</div>
+
+
+<div className="max-w-lg text-left">
         <p className="text-sm mb-5 text-white">
           Crushing and screening play a crucial role in driving productivity for both mining and construction industries. In these fast-paced sectors, speed, efficiency, and precision in processing materials can make all the difference in quality and output. 
         </p>
@@ -40,6 +45,7 @@ export default function HeroSection() {
         <p className="text-xl mb-7 text-gray-300">
           <span className="text-[#ec6b24]">Hefty</span> – Powering Productivity with Precision Crushing & Screening
         </p>
+      </div>
 
         {/* Features Block */}
         <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-10 bg-black py-10 px-4 rounded-lg">
@@ -60,7 +66,7 @@ export default function HeroSection() {
             </Fragment>
           ))}
         </div>
-      </div>
+      
 
       
     </section>

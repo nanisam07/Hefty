@@ -4,25 +4,25 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "Why should I choose Nihal Finserv over other financial consultants?",
+    question: "Comprehensive Product Range",
     answer:
-      "Nihal Finserv offers a personalized, transparent, and strategic approach to financial consulting. As an authorized channel partner with leading banks and NBFCs, we bring direct access to multiple loan options, expert structuring, and faster approvals — all under one roof.",
+      "From jaw, cone, and impact crushers to track-mounted mobile units and integrated screening systems, Hefty offers solutions for every stage of your crushing and screening process. Our equipment is designed to handle diverse materials and applications, ensuring you find the perfect fit for your project.",
   },
   {
-    question: "What makes Nihal Finserv trustworthy and reliable?",
-    answer: "We operate strictly under RBI guidelines, ensuring compliance and transparency in every transaction. Our credibility stems from years of experience, a strong partner network, and a customer-first approach that prioritizes ethical practices and financial clarity.",
+    question: "Proven Engineering Excellence",
+    answer: "With years of industry expertise, our designs are backed by in-depth research, cutting-edge technology, and rigorous testing. We don’t just build machines — we craft solutions that consistently deliver high productivity, low downtime, and maximum efficiency.",
   },
   {
-    question: "Does Nihal Finserv help with only one type of loan?",
-    answer: "No — we specialize in a wide range of loan solutions, including personal loans, business loans, home loans, working capital, and structured loans. Whether you’re an individual or a business, we offer customized financing strategies tailored to your unique needs",
+    question: "Nationwide Presence & Trust",
+    answer: "Our machines operate successfully across varied terrains and industries nationwide. Customers in mining, construction, and infrastructure sectors trust Hefty for reliability, performance, and timely project delivery.",
   },
   {
-    question: "How does Nihal Finserv simplify the loan process?",
-    answer: "From understanding your financial goal to identifying the right lender, preparing documentation, ensuring RBI compliance, and supporting disbursement — we offer end-to-end assistance. Our team does the heavy lifting so you can stay focused on your financial growth.",
+    question: "Commitment to Quality & Safety",
+    answer: "Every product is manufactured to meet the highest safety and durability standards. From robust materials to precision engineering, we ensure your operations run smoothly while prioritizing the safety of your team.",
   },
   {
-    question: "Can I trust Nihal Finserv to get me better loan terms?",
-    answer: "Absolutely. With strong partnerships across multiple banks and NBFCs, we’re in a position to negotiate competitive interest rates, flexible tenures, and favorable terms — often better than going directly to a lender."
+    question: "Dedicated Service & Support",
+    answer: "We believe in long-term partnerships. Our dedicated service network offers 24/7 assistance, spare parts availability, and on-site technical support to keep your operations running without interruption.",
   },
 ];
 
@@ -34,10 +34,11 @@ export default function FaqSection() {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row items-start justify-between px-6 py-16 max-w-7xl mx-auto">
+    <div className="flex flex-col lg:flex-row items-center justify-between px-6 py-16 max-w-7xl mx-auto">
       {/* Left Side: FAQ */}
       <div className="w-full lg:w-1/2">
-        <h2 className="text-4xl font-bold mb-6">FAQ</h2>
+        <h2 className="text-4xl font-bold mb-6 ">Why Choose Hefty
+</h2>
         {faqs.map((faq, index) => (
           <div
             key={index}

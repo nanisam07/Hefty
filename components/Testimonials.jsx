@@ -2,19 +2,31 @@
 
 import React from "react";
 
-
 const testimonials = [
   {
-    title: "Nikhil Bharadwaj",
-    text: "Nihal Finserv Team are a true professional and extremely focused towards positive customer experience. Their service is very fast and he was very flexible in accommodating our requirements. He has supported us like a family member and has been very helpful throughout the process. I would strongly recommend there service to my friends and family.",
-    name: "Nikhil Bharadwaj",
-    position: "CEO | Frutoo szeeque",
+    text: "Hefty’s track-mounted jaw crusher has transformed our site productivity. Setup was quick, operation is smooth, and the output quality exceeded our expectations.",
+    name: "Ramesh K.",
+    position: "Project Manager, Apex Constructions",
   },
   {
-    title: "Sandeep Parepally",
-    text: "I was struggling to get a personal loan for the past 6 months, but Nihal and team made it happen! The entire Nihal Finserv team was awesome—always kept me informed about what to expect, which calls I’d get, and how to respond. Team was always available for any doubts and picked up my calls every time. Extremely happy with the support and service. Highly recommended!",
-    /*name: "Sneha Kapoor",*/
-    position: "Sandeep Parepally",
+    text: "We’ve been using Hefty’s cone crusher for over two years, and the reliability is unmatched. Minimal downtime, easy maintenance, and excellent after-sales service.",
+    name: "Suresh B.",
+    position: "Operations Head, GraniteWorks Mining",
+  },
+  {
+    text: "What sets Hefty apart is their attention to detail and customer support. They didn’t just sell us a machine — they provided a complete solution for our crushing needs.",
+    name: "Anita M.",
+    position: "Director, BuildRight Infrastructure",
+  },
+  {
+    text: "From day one, the Hefty team understood our challenges and recommended the right equipment. Our screening process is now twice as efficient.",
+    name: "Vikram P.",
+    position: "Plant Supervisor, RiverStone Aggregates",
+  },
+  {
+    text: "High-quality machines backed by a responsive service team. Hefty has become our go-to partner for all crushing and screening requirements.",
+    name: "Pradeep S.",
+    position: "Owner, Shakti Constructions",
   },
 ];
 
@@ -27,13 +39,11 @@ const styles = {
   header: {
     fontSize: "42px",
     fontWeight: "700",
-    textAlign: "left",
+    textAlign: "center",
     marginBottom: "40px",
     maxWidth: "1200px",
     margin: "0 auto 40px",
-  },
-  headerGray: {
-    color: "#bbb",
+    color: "#000",
   },
   testimonials: {
     display: "flex",
@@ -57,13 +67,6 @@ const styles = {
     color: "#e74c3c",
     marginBottom: "10px",
   },
-  title: {
-    fontWeight: "600",
-    fontSize: "18px",
-    marginBottom: "15px",
-    color: "black",
-    text: "black",
-  },
   text: {
     fontSize: "16px",
     color: "black",
@@ -85,13 +88,12 @@ export default function Testimonials() {
   return (
     <div style={styles.wrapper}>
       <div style={styles.header}>
-       <span style={{ color: "#000" }}>Testimonials</span>
+        Testimonials
       </div>
       <div style={styles.testimonials}>
         {testimonials.map((item, idx) => (
           <div key={idx} style={styles.card}>
             <div style={styles.quoteIcon}>❝</div>
-            <div style={styles.title}>{item.title}</div>
             <div style={styles.text}>{item.text}</div>
             <div style={styles.author}>{item.name}</div>
             <div style={styles.role}>{item.position}</div>

@@ -9,7 +9,7 @@ import Faq from '../components/Faq';
 import MarqueeSection from '../components/MarqueeSection.jsx';
 import FeaturedInsights from '../components/FeaturedInsights';
 import Testimonials from '../components/Testimonials';
-import ServiceSection from '../components/ServiceSection';
+
 import Footer from '../components/Footer';
 import Content from '../components/Content.jsx';
 import { use } from 'react';
@@ -35,7 +35,7 @@ export default function HomePage() {
       {/* <ClientLogosSection /> */}
       <Testimonials />
       <ContactSection />
-      <ServiceSection />
+      
       <Footer />
     </>
   );

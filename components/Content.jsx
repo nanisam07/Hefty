@@ -18,7 +18,7 @@ export default function Content() {
             </div>
             
             <h2 className="text-5xl font-bold text-black leading-tight">
-              CRUSHES 
+              CRUSHERS 
             </h2>
             
             <p className="text-black text-base leading-relaxed">
@@ -35,21 +35,21 @@ Secure your future, with a loan you can trust.
                 <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                <span className="text-lg text-gray-800">JAW CRUSHES</span>
+                <span className="text-lg text-gray-800">JAW CRUSHERS</span>
               </div>
               
               <div className="flex items-center space-x-3">
                 <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                <span className="text-lg text-gray-800">CORE CRUSHES</span>
+                <span className="text-lg text-gray-800">CORE CRUSHERS</span>
               </div>
 
               <div className="flex items-center space-x-3">
                 <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                <span className="text-lg text-gray-800">ROLL CRUSHES</span>
+                <span className="text-lg text-gray-800">ROLL CRUSHERS</span>
               </div>
             </div>
           </div>

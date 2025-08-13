@@ -21,7 +21,7 @@ export default function LanguageSelector() {
       {/* Outer container instead of <button> */}
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center px-4 py-2 bg-white text-black rounded-full cursor-pointer hover:bg-gray-800 shadow-lg"
+        className="flex items-center px-4 py-2 bg-white text-black rounded-full cursor-pointer  shadow-lg"
       >
         <Image
           src={selected.flag}

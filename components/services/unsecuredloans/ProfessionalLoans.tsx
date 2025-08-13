@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { CheckCircle } from "lucide-react";
-import IndustriesWeServe from '@/components/Industries';
+
 
 
 import ContactSection from '@/components/ContactSection';

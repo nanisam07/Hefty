@@ -28,8 +28,8 @@ export default function HeroSection() {
     <section className="bg-black text-white py-20 px-6 flex flex-col md:flex-row items-center justify-between min-h-[400px]">
       {/* Text Block */}
       <div className="max-w-xl text-center md:text-left md:ml-10">
-        <h1 className="text-4xl text-[#ec6b24] font-bold leading-tight mb-6 text-balance">
-          Hyderabad’s Leading<br />Certified Company<br />For Crushing Equipment
+        <h1 className="text-4xl text-[#ec6b24] text-center font-bold leading-tight mb-6 text-balance">
+          Hyderabad’s Leading Certified Company<br />For Crushing Equipment
         </h1>
         <p className="text-sm mb-5 text-white">
           Crushing and screening play a crucial role in driving productivity for both mining and construction industries. In these fast-paced sectors, speed, efficiency, and precision in processing materials can make all the difference in quality and output. 

@@ -29,30 +29,42 @@ Secure your future, with a loan you can trust.
           </div>
           
           {/* Right side - Services List */}
-          <div className="lg:col-span-2 grid md:grid-cols-2 gap-8">
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                <span className="text-lg text-gray-800">JAW CRUSHERS</span>
-              </div>
-              
-              <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                <span className="text-lg text-gray-800">CORE CRUSHERS</span>
-              </div>
+          {/* Services List - 2 Columns */}
+<div className="lg:col-span-2 grid md:grid-cols-2 gap-8">
+  {/* Column 1 */}
+  <div className="space-y-4">
+    <div className="flex items-center space-x-3">
+      <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <polyline points="9,18 15,12 9,6"></polyline>
+      </svg>
+      <span className="text-lg text-gray-800">JAW CRUSHERS</span>
+    </div>
 
-              <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                <span className="text-lg text-gray-800">ROLL CRUSHERS</span>
-              </div>
-            </div>
-          </div>
+    <div className="flex items-center space-x-3">
+      <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <polyline points="9,18 15,12 9,6"></polyline>
+      </svg>
+      <span className="text-lg text-gray-800">ROLL CRUSHERS</span>
+    </div>
+
+    
+  </div>
+
+  {/* Column 2 */}
+  <div className="space-y-4">
+    <div className="flex items-center space-x-3">
+      <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <polyline points="9,18 15,12 9,6"></polyline>
+      </svg>
+      <span className="text-lg text-gray-800">CORE CRUSHERS</span>
+    </div>
+
+    
+
+   
+  </div>
+</div>
+
         </div>
 
         <hr className="my-12 border-t border-gray-300" />
@@ -99,19 +111,9 @@ Fast approvals, flexible EMIs — all with zero asset risk.
                 <span className="text-lg text-gray-800">TRACK MOUNTED CONE CRUSHERS</span>
               </div>
               
-              <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                <span className="text-lg text-gray-800">TRACK MOUNTED ENDURER </span>
-              </div>
+              
 
-              <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                <span className="text-lg text-gray-800">TRACK MOUNTED VERTICAL SHAFT IMAPCTOR </span>
-              </div>
+              
             </div>
             
             <div className="space-y-4">
@@ -221,7 +223,7 @@ Big visions need bold backing — let’s build it together.
                 <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                <span className="text-lg text-gray-800">GRIZZY FEEDER</span>
+                <span className="text-lg text-gray-800"> GRIZZLY FEEDER</span>
               </div>
               
               <div className="flex items-center space-x-3">
@@ -230,12 +232,14 @@ Big visions need bold backing — let’s build it together.
                 </svg>
                 <span className="text-lg text-gray-800">FEEDER SCREEN</span>
               </div>
-
+            </div>
+            
+            <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                <span className="text-lg text-gray-800">PUN FEEDER</span>
+                <span className="text-lg text-gray-800">PAN FEEDERS</span>
               </div>
             </div>
           </div>
@@ -359,39 +363,41 @@ Invest in growth — without draining your capital.
                 <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                <span className="text-lg text-gray-800">SAND WASHER </span>
+                <span className="text-lg text-gray-800">SAND WASHER</span>
               </div>
               
               <div className="flex items-center space-x-3">
                 <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                <span className="text-lg text-gray-800"> DUAL SAND WASHER</span>
+                <span className="text-lg text-gray-800">DUAL SAND WASHER</span>
               </div>
-              
-              <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                <span className="text-lg text-gray-800">EW WASH</span>
-              </div>
-
-              <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polyline points="9,18 15,12 9,6"></polyline>
-                </svg>
-                <span className="text-lg text-gray-800">PRO WASH</span>
-              </div>
-
               <div className="flex items-center space-x-3">
                 <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
                 <span className="text-lg text-gray-800">THICKENER</span>
               </div>
+              
+
+              
             </div>
             
-
+            <div className="space-y-4">
+              <div className="flex items-center space-x-3">
+                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <polyline points="9,18 15,12 9,6"></polyline>
+                </svg>
+                <span className="text-lg text-gray-800"> ECO WASHER</span>
+              </div>
+              
+              <div className="flex items-center space-x-3">
+                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <polyline points="9,18 15,12 9,6"></polyline>
+                </svg>
+                <span className="text-lg text-gray-800">PRO WASHER</span>
+              </div>
+            </div>
           </div>
         </div>
         <hr className="my-12 border-t border-gray-300" />

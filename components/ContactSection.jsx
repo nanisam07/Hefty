@@ -27,7 +27,7 @@ export default function ContactSection() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h2 style={styles.title}>Collaborate with Nihal Finserv</h2>
+        <h2 style={styles.title}>Collaborate with Hefty</h2>
         <form style={styles.form}>
           <label style={styles.label}>Name *</label>
           <input type="text" style={styles.input} />
@@ -91,14 +91,14 @@ const styles = {
   container: {
     display: "flex",
     flexWrap: "wrap",
-    backgroundColor: "black",
+    backgroundColor: "#ec6b24",
     color: "#fff",
     padding: "50px 20px",
     fontFamily: "'Segoe UI', sans-serif",
   },
   left: {
     flex: "1 1 500px",
-    backgroundColor: "black",
+    backgroundColor: "#ec6b24",
     padding: "30px",
     borderRadius: "10px",
     margin: "10px",
@@ -134,7 +134,7 @@ const styles = {
     marginBottom: "10px",
     borderRadius: "4px",
     border: "1px solid #ccc",
-    backgroundColor: "black",
+    backgroundColor: "#ec6b24",
     color: "white",
   },
   textarea: {
@@ -144,13 +144,13 @@ const styles = {
     borderRadius: "4px",
     border: "1px solid #ccc",
     marginBottom: "15px",
-    backgroundColor: "black",
+    backgroundColor: "#ec6b24",
     color: "white",
   },
   button: {
     padding: "10px 20px",
     backgroundColor: "white",
-    color: "black",
+    color: "#ec6b24",
     border: "none",
     fontSize: "16px",
     cursor: "pointer",

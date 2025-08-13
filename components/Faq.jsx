@@ -42,14 +42,14 @@ export default function FaqSection() {
           <div
             key={index}
             className={`border-b ${
-              index === activeIndex ? "border-red-500" : "border-gray-300"
+              index === activeIndex ? "border-[#ec6b24]" : "border-gray-300"
             } py-4 cursor-pointer`}
             onClick={() => toggleFAQ(index)}
           >
             <div className="flex justify-between items-center">
               <p
                 className={`font-semibold text-lg ${
-                  index === activeIndex ? "text-red-500" : "text-black"
+                  index === activeIndex ? "text-[#ec6b24]" : "text-black"
                 }`}
               >
                 {faq.question}

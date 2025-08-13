@@ -6,10 +6,10 @@ const ServiceSection = () => {
   // Define your styles as a JavaScript object
   const styles = {
     sectionContainer: {
-      backgroundColor: 'black', /* Dark background */
+      backgroundColor: '#ec6b24', /* Dark background */
       padding: '40px 20px', /* Adjust padding as needed */
       color: '#ffffff', /* Light text color */
-      fontFamily: 'Arial, sans-serif', /* Choose a suitable font */
+      fontFamily: 'serif', /* Choose a suitable font */
       maxWidth: '1200px', /* Max width for the content */
       margin: '50px auto', /* Center the section */
       borderRadius: '15px', /* Optional: if the section container has rounded corners */
@@ -41,7 +41,7 @@ const ServiceSection = () => {
     serviceListItem: {
       fontSize: '16px',
       marginBottom: '10px', /* Space between list items */
-      color: '#b0b0b0', /* Slightly lighter color for list items */
+      color: 'white', /* Slightly lighter color for list items */
       cursor: 'pointer', /* Indicate interactivity */
       transition: 'color 0.3s ease', /* Smooth transition for hover effect */
     },

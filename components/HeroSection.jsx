@@ -10,17 +10,17 @@ export default function HeroSection() {
       icon: <FaHandHoldingUsd size={40} className="text-white" />,
       title: (
         <>
-        Very Low Rates<br/>on All Loans
+        Power
         </>
       ),
     },
     {
       icon: <FaFileAlt size={40} className="text-white" />,
-      title: '99.9% Success Rate Guarantee',
+      title: 'Precision',
     },
     {
       icon: <FaGlobeAmericas size={40} className="text-white" />,
-      title: 'Flexible with Your Repayments',
+      title: 'Performance',
     },
   ];
 
@@ -29,16 +29,16 @@ export default function HeroSection() {
       {/* Text Block */}
       <div className="max-w-xl text-center md:text-left md:ml-10">
         <h1 className="text-4xl font-bold leading-tight mb-6 text-balance">
-          Plan For Tomorrow<br />and Choose the<br />Right Loan
+          Hyderabad’s Leading<br />Certified Company<br />For Crushing Equipment
         </h1>
         <p className="text-sm mb-5 text-gray-400">
-          At Nihal Finserv, we make borrowing simple and stress-free. Whether you need a personal loan, home loan, car loan, or help choosing the right investment, we’re here to guide you.
+          Crushing and screening play a crucial role in driving productivity for both mining and construction industries. In these fast-paced sectors, speed, efficiency, and precision in processing materials can make all the difference in quality and output. 
         </p>
         <p className="text-sm mb-6 text-gray-400">
-          We work closely with trusted banks and NBFCs to help you find the best financial solutions — quickly, transparently, and with personal attention.
+          That’s why customers across the nation trust Hefty to deliver innovative, technologically advanced, and cost-effective crushing and screening solutions tailored to their needs.
         </p>
         <p className="text-xl mb-7 text-gray-300">
-          Your goals matter. Let’s finance them, together.
+          Hefty – Powering Productivity with Precision Crushing & Screening
         </p>
 
         {/* Features Block */}

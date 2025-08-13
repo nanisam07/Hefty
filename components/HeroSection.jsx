@@ -25,7 +25,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="bg-[#132b4a] text-white py-20 px-6 flex flex-col md:flex-row items-center justify-between min-h-[400px]">
+    <section className="bg-black text-white py-20 px-6 flex flex-col md:flex-row items-center justify-between min-h-[400px]">
       {/* Text Block */}
       <div className="max-w-xl text-center md:text-left md:ml-10">
         <h1 className="text-4xl font-bold leading-tight mb-6 text-balance">

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import LanguageSelector from "./Languageselector"; // Import the LanguageSelector component
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(null);
@@ -33,7 +34,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full h-20 shadow-lg bg-[#132b4a] text-white relative z-50 font-serif">
+    <header className="w-full h-20 shadow-lg bg-[#ffffff] text-black relative z-50 font-serif">
       <div className="max-w-[1280px] mx-auto flex items-center justify-between h-full px-6">
 
         {/* Logo */}
@@ -42,7 +43,7 @@ export default function Header() {
         <Image
           src="/Logo.jpg"
           alt="Nihal Finserv"
-          width={120}
+          width={125}
           height={30}
           className="h-auto w-auto shadow-lg"
           priority // optional: ensures logo loads quickly
@@ -171,7 +172,7 @@ export default function Header() {
         {/* Hire Us Button */}
         <div className="hidden md:flex flex-shrink-0">
           <button className="bg-black text-white px-6 py-2.5 rounded-full font-semibold shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
-            Hire Us →
+            <LanguageSelector />
           </button>
         </div>
 
@@ -280,12 +281,23 @@ export default function Header() {
           <a href="/contact" onClick={handleMobileLinkClick} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">Contact Us</a>
 
           {/* Hire Us Button (Mobile) */}
-          <button
-            onClick={handleMobileLinkClick}
-            className="bg-black w-full text-white py-2.5 rounded-full font-semibold shadow-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 mt-4"
-          >
-            Hire Us →
-          </button>
+          <div className="flex items-center space-x-2">
+      <label htmlFor="language" className="text-sm font-medium text-gray-700">
+        Select Language:
+      </label>
+      <select
+        id="language"
+        value={language}
+        onChange={(e) => setLanguage(e.target.value)}
+        className="px-3 py-2 border rounded-md shadow-sm focus:outline-none focus:ring focus:border-blue-300"
+      >
+        <option value="">-- Choose --</option>
+        <option value="ar">Arabic</option>
+        <option value="th">Thai</option>
+        <option value="id">Indonesian</option>
+        <option value="ru">Russian</option>
+      </select>
+    </div>
         </nav>
       )}
     </header>

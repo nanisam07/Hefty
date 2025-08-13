@@ -74,51 +74,91 @@ const ServiceSection = () => {
 
   const serviceCategories = [
     {
-      title: 'SME',
+      title: 'CRUSHES',
       items: [
-        'Manufacturer',
-        'Distributor',
-        'Vendor',
-        'Service Provider',
-        'Retailer',
-      ],
-    },
-    {
-      title: 'Structured Products',
-      items: [
-        'Loan Against Securities',
-'Structured Investments',
-'Debt Syndication',
-'Letter of Credit',
-'Lease Rental Discounting',
-'Loan Against Property',
-      ],
-    },
-    {
-      title: 'Equipment Financing & Leasing',
-      items: [
+        'JAW CRUSHES',
+        'CONE CRUSHES',
+        'ROLL CRUSHES',
         
-'Capital Goods',
-'IT Hardware',
-'Office Infrastructure',
-'Cars',
-'Construction Equipment',
-'Energy Saving Equipment',
-'Healthcare Equipment',
-'Logistics Machinery',
-'Solar Equipment',
       ],
     },
     {
-      title: 'Construction Finance',
+      title: 'MOBILE SERVICES',
       items: [
-        
-'Funding Solutions for Your Construction Projects',
-'Securing Land and Sourcing Raw Materials',
-'Paying Contractors and Workers',
-'Acquiring Permits and Licenses',
+        'TRACK MOUNTED JAW CRUSHES',
+'TRACK MOUNTED CONE CRUSHES',
+'TRACK MOUNTED ENDURER CRUSHES',
+'TRACK MOUNTED VERTICAL SHAFT IMOACTOR',
+'TRACK MOUNTED SCREEN',
+'TRACK MOUNTED SCALPER',
       ],
     },
+    {
+      title: 'SEMI MOBILE SERVICES',
+      items: [
+        'PRO FAST JAW ',
+        'PRO FST CONE',
+        'PRO FAST VERTICAL SHAFT IMPACTOR',
+
+      ],
+    },
+    {
+      title: 'FEEDERS',
+      items: [
+        'VIBRATING FEEDERS',      
+      ],
+
+    },
+    {
+      title: 'IMPACTORS',
+      items: [
+        'GRIZZLY FEEDER',
+        'FEEDER SCREEN',
+        'PAN FEEDER',      
+      ],
+    },
+    {
+      title: 'IMPPACTORS',
+      items: [
+        'VERTICAL SHAFT IMAPCTORS',
+        'HORIZONTAL SHAFT IMPACTORS',      
+      ], 
+    },
+    {
+      title: 'SCREENS',
+      items: [
+        'VIBRATING SCREENS',      
+      ],
+    },
+    {
+      title: 'WASHING SYSTEMS',
+      items: [
+        'SAND WASHER',
+        'DUAL SAND WASHER',
+        'ECO WASH ',
+        'PRO WASH',
+        'THICKERNER',      
+      ],
+    },
+    {
+      title: 'CLASSIFERS',
+      items: [
+        'PRO AIR CLASSIFER',      
+      ],
+    },
+    {
+      title: 'MECHANICAL ROAD PAVER',
+      items: [],
+    },
+    {
+      title: 'EV - DUMPER TRUCK',
+      items: [],
+    },
+    {
+      title: 'EV - TRACTOR TRAILER TRUCK',
+      items: [],
+    },
+
   ];
 
   return (

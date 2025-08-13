@@ -91,7 +91,7 @@ const styles = {
   container: {
     display: "flex",
     flexWrap: "wrap",
-    backgroundColor: "#132b4a",
+    backgroundColor: "black",
     color: "#fff",
     padding: "50px 20px",
     fontFamily: "'Segoe UI', sans-serif",

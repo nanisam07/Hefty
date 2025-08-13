@@ -111,7 +111,7 @@ export default function Header() {
             onMouseEnter={() => handleMouseEnter("products")}
             onMouseLeave={handleMouseLeave}
           >
-            <span className="cursor-pointer px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-[#204066]">
+            <span className="cursor-pointer px-3 py-2 rounded-lg transition-colors duration-300 ">
               Products ▾
             </span>
             {openMenu === "products" && (

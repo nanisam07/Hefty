@@ -74,31 +74,27 @@ const ServiceSection = () => {
 
   const serviceCategories = [
     {
-      title: 'CRUSHES',
+      title: 'CRUSHERS',
       items: [
-        'JAW CRUSHES',
-        'CONE CRUSHES',
-        'ROLL CRUSHES',
+        'JAW CRUSHERS',
+        'CONE CRUSHERS',
+        'ROLL CRUSHERS',
         
       ],
     },
     {
-      title: 'MOBILE SERVICES',
+      title: 'MOBILE SERIES',
       items: [
-        'TRACK MOUNTED JAW CRUSHES',
-'TRACK MOUNTED CONE CRUSHES',
-'TRACK MOUNTED ENDURER CRUSHES',
-'TRACK MOUNTED VERTICAL SHAFT IMOACTOR',
-'TRACK MOUNTED SCREEN',
-'TRACK MOUNTED SCALPER',
+        'TRACK MOUNTED JAW CRUSHERS',
+'TRACK MOUNTED CONE CRUSHERS',
+
       ],
     },
     {
-      title: 'SEMI MOBILE SERVICES',
+      title: 'SEMI MOBILE SERIES',
       items: [
         'PRO FAST JAW ',
         'PRO FST CONE',
-        'PRO FAST VERTICAL SHAFT IMPACTOR',
 
       ],
     },
@@ -109,14 +105,7 @@ const ServiceSection = () => {
       ],
 
     },
-    {
-      title: 'IMPACTORS',
-      items: [
-        'GRIZZLY FEEDER',
-        'FEEDER SCREEN',
-        'PAN FEEDER',      
-      ],
-    },
+    
     {
       title: 'IMPPACTORS',
       items: [
@@ -135,21 +124,11 @@ const ServiceSection = () => {
       items: [
         'SAND WASHER',
         'DUAL SAND WASHER',
-        'ECO WASH ',
-        'PRO WASH',
-        'THICKERNER',      
+            
       ],
     },
-    {
-      title: 'CLASSIFERS',
-      items: [
-        'PRO AIR CLASSIFER',      
-      ],
-    },
-    {
-      title: 'MECHANICAL ROAD PAVER',
-      items: [],
-    },
+   
+   
     {
       title: 'EV - DUMPER TRUCK',
       items: [],

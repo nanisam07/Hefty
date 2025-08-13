@@ -4,22 +4,22 @@ import Link from "next/link";
 
 const articles = [
   {
-    title: "Structured Loans: Customized Financial Solutions by Nihal Finserv",
+    title: "Hefty Machines- Redefining Crushing, Screening, and Washing Excellence",
     image: "https://img.freepik.com/free-vector/isometric-family-budget-composition-with-people-counting-money-vector-illustration_1284-80992.jpg?semt=ais_hybrid&w=740&q=80",
     slug: "structured-loans",
   },
   {
-    title: "Nihal Finserv – Your Trusted Financial Partner in Achieving Dreams",
+    title: "The Science of Perfect Aggregates- How Hefty Machines Deliver Unmatched Quality",
     image: "https://www.cfoselections.com/hubfs/Images/integrity-in-finance.jpeg",
     slug: "financial-partner",
   },
   {
-    title: "Nihal Finserv – Driven by Values, Focused on You",
+    title: "Why Mobile is the Future of Crushing Equipment- The Hefty Advantage",
     image: "https://images.moneycontrol.com/static-mcnews/2018/10/Loans-2-final-770x433.png?impolicy=website&width=770&height=431",
     slug: "driven-by-values",
   },
   {
-    title: "Professional Loans for Doctors and CAs – Empowering Growth",
+    title: "PSafety and Sustainability- How Hefty Leads in Responsible Machinery Design",
     image: "https://media.assettype.com/outlookmoney/2025-01-31/104ynhsa/Untitled-design-8.png?w=801&auto=format%2Ccompress&fit=max&format=webp&dpr=1.05",
     slug: "loans-for-doctors-cas",
   },

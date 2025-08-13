@@ -42,7 +42,7 @@ export default function HeroSection() {
         </p>
 
         {/* Features Block */}
-        <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-10 bg-[#132b4a] py-10 px-4 rounded-lg">
+        <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-10 bg-black py-10 px-4 rounded-lg">
           {features.map((feature, index) => (
             <Fragment key={index}>
               <div className="flex items-center text-white max-w-sm gap-4">

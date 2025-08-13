@@ -6,7 +6,7 @@ const ServiceSection = () => {
   // Define your styles as a JavaScript object
   const styles = {
     sectionContainer: {
-      backgroundColor: '#132b4a', /* Dark background */
+      backgroundColor: 'black', /* Dark background */
       padding: '40px 20px', /* Adjust padding as needed */
       color: '#ffffff', /* Light text color */
       fontFamily: 'Arial, sans-serif', /* Choose a suitable font */

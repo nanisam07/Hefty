@@ -54,12 +54,56 @@ export default function Header() {
 
         {/* Navigation */}
         <nav className="hidden md:flex flex-1 justify-center gap-2 items-center text-sm">
-          <a href="/" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-[#204066]">
-            Home
-          </a>
-          <a href="#" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-[#204066]">
-            Company
-          </a>
+  {/* Home */}
+  <a
+    href="/"
+    className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-[#204066]"
+  >
+    Home
+  </a>
+
+  {/* Company Dropdown */}
+  <div className="relative group">
+    <a
+      href="#"
+      className="relative px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-[#204066] flex items-center"
+    >
+      Company
+      <svg
+        className="ml-2 w-4 h-4 transition-transform duration-200 group-hover:rotate-180"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={2}
+        viewBox="0 0 24 24"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </a>
+
+    {/* Dropdown Menu */}
+    <div className="absolute left-0 hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 w-48 z-50">
+      <a
+        href="#about"
+        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+      >
+        About Us
+      </a>
+      <a
+        href="#team"
+        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+      >
+        Our Team
+      </a>
+      <a
+        href="#careers"
+        className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+      >
+        Careers
+      </a>
+    </div>
+  </div>
+
+          
 
           {/* Products Dropdown - Mouse events are on this parent div */}
           <div

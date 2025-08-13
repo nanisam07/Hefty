@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(null);
@@ -36,17 +38,18 @@ export default function Header() {
 
         {/* Logo */}
         <div className="hidden md:flex font-bold flex-shrink-0">
-          <a href="/">
-            {/* The src attribute is replaced with a placeholder image */}
-            <img
-              src="public/Logo.jpg"
-              alt="HEFTY"
-              width={120}
-              height={30}
-              className="h-auto w-auto shadow-lg"
-            />
-          </a>
-        </div>
+      <Link href="/" className="flex items-center">
+        <Image
+          src="/Logo.jpg"
+          alt="Nihal Finserv"
+          width={120}
+          height={30}
+          className="h-auto w-auto shadow-lg"
+          priority // optional: ensures logo loads quickly
+        />
+      </Link>
+    </div>
+
 
         {/* Navigation */}
         <nav className="hidden md:flex flex-1 justify-center gap-2 items-center text-sm">

@@ -39,7 +39,7 @@ export default function Header() {
           <a href="/">
             {/* The src attribute is replaced with a placeholder image */}
             <img
-              src="https://placehold.co/120x30/FFFFFF/000000?text=Logo"
+              src="public/Logo.jpg"
               alt="Nihal Finserv"
               width={120}
               height={30}

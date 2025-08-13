@@ -62,10 +62,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Globe Animation */}
-      <div className="mt-10 mr-10 md:mt-0 w-full md:w-1/2 lg:w-2/5 aspect-square max-w-[500px] flex items-center justify-center">
-        <GlobeAnimation />
-      </div>
+      
     </section>
   );
 }

@@ -98,7 +98,7 @@ const styles = {
   },
   left: {
     flex: "1 1 500px",
-    backgroundColor: "#132b4a",
+    backgroundColor: "black",
     padding: "30px",
     borderRadius: "10px",
     margin: "10px",

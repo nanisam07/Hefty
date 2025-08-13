@@ -120,7 +120,7 @@ export default function Header() {
                   {/* Column 1: Crushes */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
-                      <a href="/products/crushes" className="hover:text-blue-400 transition-colors">Crushes</a>
+                      <a href="/products/crushes" className="hover:text-blue-400 transition-colors">Crushers</a>
                     </div>
                     <a href="#" className="hover:text-blue-400 transition-colors">Jaw Crushers</a>
                     <a href="#" className="hover:text-blue-400 transition-colors">Cone Crushers</a>

@@ -46,14 +46,14 @@ export default function ContactSection() {
           <label style={styles.label}>Subject *</label>
           <select style={styles.input}>
             <option>--- Select Choice ---</option>
-            <option>Secured Loans</option>
-            <option>Unsecured Loans</option>
-            <option>Term Loans</option>
-            <option>Coorporate Loans</option>
-            <option>Sme</option>
-            <option>Structured Products</option>
-            <option>Equipment Refinancing</option>
-            <option>Ai Chat Bot</option>
+            <option>Crushers </option>
+            <option>Mobile Series</option>
+            <option>Semi Mobile Series</option>
+            <option>Feeders</option>
+            <option>Impactors</option>
+            <option>Screens</option>
+            <option>Washing System</option>
+            <option>Classifier</option>
           </select>
 
           <label style={styles.label}>Comment or Message</label>
@@ -134,7 +134,7 @@ const styles = {
     marginBottom: "10px",
     borderRadius: "4px",
     border: "1px solid #ccc",
-    backgroundColor: "#132b4a",
+    backgroundColor: "black",
     color: "white",
   },
   textarea: {
@@ -149,7 +149,7 @@ const styles = {
   },
   button: {
     padding: "10px 20px",
-    backgroundColor: "#007bff",
+    backgroundColor: "black",
     color: "#fff",
     border: "none",
     fontSize: "16px",

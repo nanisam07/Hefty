@@ -38,7 +38,7 @@ export default function Header() {
           <Link href="/" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-[#204066]">
             Home
           </Link>
-          <Link href="/about" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-[#204066]">
+          <Link href="#" className="relative group px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-[#204066]">
             Company
           </Link>
 
@@ -59,30 +59,30 @@ export default function Header() {
                     <div className="font-semibold text-base mb-2">
                       <Link href="/products/crushes" className="hover:text-blue-400 transition-colors">Crushes</Link>
                     </div>
-                    <Link href="/products/crushes/jaw" className="hover:text-blue-400 transition-colors">Jaw Crushers</Link>
-                    <Link href="/products/crushes/cone" className="hover:text-blue-400 transition-colors">Cone Crushers</Link>
-                    <Link href="/products/crushes/roll" className="hover:text-blue-400 transition-colors">Roll Crushers</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Jaw Crushers</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Cone Crushers</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Roll Crushers</Link>
                   </div>
                   {/* Column 2: Mobile Series */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
-                      <Link href="/products/mobile-series" className="hover:text-blue-400 transition-colors">Mobile Series</Link>
+                      <Link href="#" className="hover:text-blue-400 transition-colors">Mobile Series</Link>
                     </div>
-                    <Link href="/products/mobile-series/jaw-crusher" className="hover:text-blue-400 transition-colors">Track Mounted Jaw Crusher</Link>
-                    <Link href="/products/mobile-series/cone-crusher" className="hover:text-blue-400 transition-colors">Track Mounted Cone Crusher</Link>
-                    <Link href="/products/mobile-series/endurer" className="hover:text-blue-400 transition-colors">Track Mounted Endurer</Link>
-                    <Link href="/products/mobile-series/impactor" className="hover:text-blue-400 transition-colors">Track Mounted Vertical Shift Impactor</Link>
-                    <Link href="/products/mobile-series/screen" className="hover:text-blue-400 transition-colors">Track Mounted Screen</Link>
-                    <Link href="/products/mobile-series/scalper" className="hover:text-blue-400 transition-colors">Track Mounted Scalper</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Track Mounted Jaw Crusher</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Track Mounted Cone Crusher</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Track Mounted Endurer</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Track Mounted Vertical Shift Impactor</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Track Mounted Screen</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Track Mounted Scalper</Link>
                   </div>
                   {/* Column 3: Semi Mobile Series */}
                   <div className="flex flex-col space-y-3">
                     <div className="font-semibold text-base mb-2">
                       <Link href="/products/semi-mobile-series" className="hover:text-blue-400 transition-colors">Semi Mobile Series</Link>
                     </div>
-                    <Link href="/products/semi-mobile-series/pro-fast-jaw" className="hover:text-blue-400 transition-colors">Pro Fast Jaw</Link>
-                    <Link href="/products/semi-mobile-series/pro-fast-cone" className="hover:text-blue-400 transition-colors">Pro Fast Cone</Link>
-                    <Link href="/products/semi-mobile-series/vsi" className="hover:text-blue-400 transition-colors">Pro Fast Vertical Shift Impactor</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Pro Fast Jaw</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Pro Fast Cone</Link>
+                    <Link href="#" className="hover:text-blue-400 transition-colors">Pro Fast Vertical Shift Impactor</Link>
                   </div>
                   {/* Column 4: Feeders and Impactors */}
                   <div className="flex flex-col space-y-3">
@@ -208,7 +208,7 @@ export default function Header() {
                   </div>
                   <Link href="/products/mobile-series/jaw-crusher" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Track Mounted Jaw Crusher</Link>
                   <Link href="/products/mobile-series/cone-crusher" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Track Mounted Cone Crusher</Link>
-                  <Link href="/products/mobile-series/endurer" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Track Mounted Endurer</Link>
+                  <Link href="#" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Track Mounted Endurer</Link>
                   <Link href="/products/mobile-series/impactor" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Track Mounted Vertical Shift Impactor</Link>
                   <Link href="/products/mobile-series/screen" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Track Mounted Screen</Link>
                   <Link href="/products/mobile-series/scalper" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Track Mounted Scalper</Link>
@@ -250,17 +250,17 @@ export default function Header() {
                   <div className="font-semibold mt-4 mb-2">
                     <Link href="/products/classifier" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Classifier</Link>
                   </div>
-                  <Link href="/products/classifier/air" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Pro Air Classifier</Link>
+                  <Link href="#" onClick={() => setMobileMenuOpen(false)} className="block hover:text-blue-400 transition-colors">Pro Air Classifier</Link>
                 </div>
               </div>
             )}
           </div>
           <Link href="/blogs" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">Blogs</Link>
-          <Link href="/facilities" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">Facilities</Link>
-          <Link href="/international" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">International</Link>
-          <Link href="/services-and-parts" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">Services & Parts</Link>
-          <Link href="/news" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">News</Link>
-          <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">Contact Us</Link>
+          <Link href="/abb"  className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">Facilities</Link>
+          <Link href="#" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">International</Link>
+          <Link href="#" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">Services & Parts</Link>
+          <Link href="#" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">News</Link>
+          <Link href="#" onClick={() => setMobileMenuOpen(false)} className="block px-4 py-2 rounded-md hover:bg-[#204066] transition-colors duration-200">Contact Us</Link>
 
           {/* Hire Us Button (Mobile) */}
           <button

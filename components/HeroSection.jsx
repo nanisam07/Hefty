@@ -1,13 +1,13 @@
 "use client";
 
 import React, { Fragment } from 'react';
-import { FaHandHoldingUsd, FaFileAlt, FaGlobeAmericas } from 'react-icons/fa';
+import { FaBolt, FaBullseye, FaTachometerAlt } from "react-icons/fa";
 import GlobeAnimation from './GlobeAnimation';
 
 export default function HeroSection() {
   const features = [
     {
-      icon: <FaHandHoldingUsd size={40} className="text-white" />,
+      icon: <FaBolt size={40} className="text-white" />,
       title: (
         <>
         Power
@@ -15,11 +15,11 @@ export default function HeroSection() {
       ),
     },
     {
-      icon: <FaFileAlt size={40} className="text-white" />,
+      icon: <FaBullseye size={40} className="text-white" />,
       title: 'Precision',
     },
     {
-      icon: <FaGlobeAmericas size={40} className="text-white" />,
+      icon: <FaTachometerAlt size={40} className="text-white" />,
       title: 'Performance',
     },
   ];

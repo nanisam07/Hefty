@@ -40,7 +40,7 @@ export default function Header() {
             {/* The src attribute is replaced with a placeholder image */}
             <img
               src="public/Logo.jpg"
-              alt="Nihal Finserv"
+              alt="HEFTY"
               width={120}
               height={30}
               className="h-auto w-auto shadow-lg"

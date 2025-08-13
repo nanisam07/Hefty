@@ -38,7 +38,7 @@ export default function HeroSection() {
           That’s why customers across the nation trust Hefty to deliver innovative, technologically advanced, and cost-effective crushing and screening solutions tailored to their needs.
         </p>
         <p className="text-xl mb-7 text-gray-300">
-          <p className="text-[#ec6b24]">Hefty</p> – Powering Productivity with Precision Crushing & Screening
+          <span className="text-[#ec6b24]">Hefty</span> – Powering Productivity with Precision Crushing & Screening
         </p>
 
         {/* Features Block */}

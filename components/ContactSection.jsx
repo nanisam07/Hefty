@@ -9,16 +9,7 @@ const offices = [
     phone: "+91 9951606993",
     map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3371810419266!2d78.43265107504443!3d17.44390038346123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b929653770335e9%3A0x8673a55745161421!2sMadhuranagar%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1716301385493!5m2!1sen!2sin"
   },
-  {
-    city: "Chennai",
-    address: "Chennai, Tamil Nadu",
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62205.10967733054!2d80.20786961448657!3d13.047535035252033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d4361%3A0x6e1a4980633b28b7!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1716301540306!5m2!1sen!2sin"
-  },
-  {
-    city: "Bangalore",
-    address: "Bengaluru, Karnataka",
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.93620935574!2d77.58784407559194!3d12.97159877473766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4368!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1716301650389!5m2!1sen!2sin"
-  },
+  
 ];
 
 export default function ContactSection() {
@@ -139,7 +130,7 @@ const styles = {
     marginBottom: "30px",
   },
   gray: {
-    color: "#888",
+    color: "white",
   },
   label: {
     display: "block",

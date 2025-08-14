@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: "Dedicated Service & Support",
-    answer: "We believe in long-term partnerships. Our dedicated service network offers 24/7 assistance, spare parts availability, and on-site technical support to keep your operations running without interruption.",
+    answer: "We believe in long-term partnerships. Our dedicated service network offers 24/7 assistance, spare parts availability, and on-site technical support to keep your operations running without interruption.",
   },
 ];
 
@@ -37,8 +37,7 @@ export default function FaqSection() {
     <div className="flex flex-col lg:flex-row items-center justify-between px-6 py-16 max-w-7xl mx-auto">
       {/* Left Side: FAQ */}
       <div className="w-full lg:w-1/2">
-        <h2 className="text-4xl font-bold mb-6 ">Why Choose Hefty
-</h2>
+        <h2 className="text-4xl font-bold mb-6 ">Why Choose Hefty</h2>
         {faqs.map((faq, index) => (
           <div
             key={index}
@@ -68,12 +67,14 @@ export default function FaqSection() {
         ))}
       </div>
 
-      {/* Right Side: Branding
-      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center mt-10 lg:mt-0 text-center lg:text-left">
-        <h1 className="text-6xl font-extrabold">OZRIT</h1>
-        <p className="text-2xl font-medium mt-2">Innovating Today</p>
-        <p className="text-2xl font-medium">for Tomorrow</p>
-      </div> */}
+      {/* Right Side: Image */}
+      <div className="w-full lg:w-1/2 flex justify-center items-center mt-10 lg:mt-0 lg:pl-12">
+        <img
+          src="/path/to/your-image.jpg" // Replace with your image path
+          alt="Description of your image" // Provide a descriptive alt text
+          className="w-full h-auto object-cover rounded-lg shadow-lg"
+        />
+      </div>
     </div>
   );
 }

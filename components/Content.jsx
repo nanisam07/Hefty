@@ -89,10 +89,10 @@ export default function SoftwareOutsourcing() {
                 className="flex items-center space-x-3 cursor-pointer"
                 onClick={() => handleClick('TRACK MOUNTED JAW CRUSHERS')}
               >
-                <svg className="w-5 h-5 text-gray-800" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <svg className="w-5 h-5 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <polyline points="9,18 15,12 9,6"></polyline>
                 </svg>
-                <span className="text-lg text-gray-800"> TRACK MOUNTED JAW CRUSHERS </span>
+                <span className="text-lg text-black hover:text-blue-950 transition-colors"> TRACK MOUNTED JAW CRUSHERS </span>
               </div>
             </div>
             <div className="space-y-4">
